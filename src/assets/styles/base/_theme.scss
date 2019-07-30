@@ -1,0 +1,15 @@
+body, html{
+  background: $bg-color;
+}
+
+.stage-container{
+  background: #1F7077;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 3px 9px transparentize($black, .1);
+}
+
+.header{
+	background: $header-color;
+	box-shadow: 0px 10px 0 $border-color;
+}
